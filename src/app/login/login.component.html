@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url('../assets/photos/nttdata4.jpg');">
+    <div>
+   
+      <div class="center-container">
+    <section class="container">
+     
+        <form action="#" class="form" (ngSubmit)="onSubmit()">
+           <div class="input-box">
+                <label>USERNAME :</label>
+                <input type="username" placeholder="username" [(ngModel)]="username" name="username" required/>
+                
+
+            </div>
+            <div class="input-box">
+                <label>PASSWORD :</label>
+                <input type="password" placeholder="password" [(ngModel)]="password"  name="password" required/>
+              
+
+            </div>
+            <div>
+            <a href="#" >Forgot your password ?</a>
+        </div>
+        <button type="submit">Log in </button>
+
+        </form>
+    </section>
+</div>
+</div>
+</body>
+</html>
